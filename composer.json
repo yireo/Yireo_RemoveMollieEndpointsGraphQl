@@ -1,0 +1,21 @@
+{
+  "name": "yireo/magento2-remove-mollie-endpoints-graph-ql",
+  "version": "1.0.0",
+  "description": "N/A",
+  "type": "magento2-module",
+  "require": {
+    "magento/framework": "^103.0",
+    "yireo/magento2-graph-ql-schema-manipulation": "0.0.*"
+  },
+  "license": [
+    "OSL-3.0"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Yireo\\RemoveMollieEndpointsGraphQl\\": ""
+    }
+  }
+}
