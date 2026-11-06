@@ -1,1 +1,7 @@
-{}
+{
+    "module_name": "Yireo_RemoveMollieEndpointsGraphQl",
+    "composer_name": "yireo/magento2-remove-mollie-endpoints-graph-ql",
+    "sequence": [
+        "Yireo_GraphQlSchemaManipulation"
+    ]
+}
