@@ -58,7 +58,7 @@ class GraphQlQueryTest extends TestCase
         $this->assertFalse($found, var_export($data['data']['__schema']['types'], true));
     }
     
-    private function getGraphQlQueryData(string $query): array
+    private function getGraphQlQueryData(string $query, array $variables = [], ?string $operation = null): array
     {
         ObjectManager::getInstance()->get(State::class)->setAreaCode('frontend');
         $om = ObjectManager::getInstance();
@@ -70,7 +70,7 @@ class GraphQlQueryTest extends TestCase
         $httpRequest = ObjectManager::getInstance()->create(Http::class);
         $httpRequest->setMethod('POST');
         $httpRequest->setQueryValue('query', $query);
-        
+
         $content = [
             'query' => $query,
             'variables' => !empty($variables) ? $serializer->serialize($variables) : null,
