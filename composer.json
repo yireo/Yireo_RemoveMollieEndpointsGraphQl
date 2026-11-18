@@ -7,6 +7,12 @@
     "magento/framework": "^103.0",
     "yireo/magento2-graph-ql-schema-manipulation": "~0.0.2"
   },
+  "require-dev": {
+    "ext-json": "*",
+    "laminas/laminas-http": "^2.24",
+    "magento/module-graph-ql": "^100.4",
+    "phpunit/phpunit": "^10.5"
+  },
   "license": [
     "OSL-3.0"
   ],
