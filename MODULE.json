@@ -3,5 +3,7 @@
     "composer_name": "yireo/magento2-remove-mollie-endpoints-graph-ql",
     "sequence": [
         "Yireo_GraphQlSchemaManipulation"
-    ]
+    ],
+    "phpcs_severity": "6",
+    "phpstan_level": "1"
 }
