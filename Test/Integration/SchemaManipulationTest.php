@@ -46,7 +46,7 @@ class SchemaManipulationTest extends TestCase
     {
         $schema = Bootstrap::getObjectManager()->get(SchemaGeneratorInterface::class)->generate();
         $typeMap = $schema->getTypeMap();
-        $this->assertArrayHasKey('Products', $typeMap);
+        $this->assertArrayHasKey('Query', $typeMap);
 
         foreach ($typeMap as $type) {
             $this->assertDoesNotMatchRegularExpression('/^mollie/i', $type->name);
