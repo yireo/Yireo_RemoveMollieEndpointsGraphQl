@@ -1,9 +1,0 @@
-query {
- molliePaymentMethods(input:{amount:11, currency:"EUR"}) {
-   methods {
-     code
-     image
-     name
-   }
- }
-}
