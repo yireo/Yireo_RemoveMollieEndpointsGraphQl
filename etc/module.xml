@@ -3,6 +3,7 @@
         xsi:noNamespaceSchemaLocation="urn:magento:framework:Module/etc/module.xsd">
     <module name="Yireo_RemoveMollieEndpointsGraphQl">
         <sequence>
+            <module name="Magento_GraphQl"/>
             <module name="Yireo_GraphQlSchemaManipulation"/>
         </sequence>
     </module>

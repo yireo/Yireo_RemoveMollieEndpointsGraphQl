@@ -9,7 +9,8 @@
   },
   "require-dev": {
     "magento/module-graph-ql": "^100.4",
-    "phpunit/phpunit": "^10.5"
+    "phpunit/phpunit": "^10.5",
+    "webonyx/graphql-php": "^15.0"
   },
   "license": [
     "OSL-3.0"
