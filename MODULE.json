@@ -6,5 +6,31 @@
         "Yireo_GraphQlSchemaManipulation"
     ],
     "phpcs_severity": "6",
-    "phpstan_level": "1"
+    "phpstan_level": "1",
+    "php_versions": [
+        "8.1",
+        "8.2",
+        "8.3",
+        "8.4"
+    ],
+    "skip_magento_versions": [],
+    "skip_css_utils": false,
+    "modules": [
+        "Magento_Authorization",
+        "Magento_Backend",
+        "Magento_Csp",
+        "Magento_Directory",
+        "Magento_Eav",
+        "Magento_GraphQl",
+        "Magento_Store",
+        "Magento_Theme",
+        "Yireo_GraphQlSchemaManipulation"
+    ],
+    "components": [],
+    "config": [],
+    "tests": {
+        "unit": 2,
+        "integration": 3,
+        "functional": 0
+    }
 }
