@@ -1,26 +1,25 @@
 {
-  "name": "yireo/magento2-remove-mollie-endpoints-graph-ql",
-  "version": "1.0.0",
-  "description": "Magento 2 module to remove the GraphQL endpoints that are added by the Mollie Payment extension",
-  "type": "magento2-module",
-  "require": {
-    "magento/framework": "^103.0",
-    "yireo/magento2-graph-ql-schema-manipulation": "~0.0.3"
-  },
-  "require-dev": {
-    "magento/module-graph-ql": "^100.4",
-    "phpunit/phpunit": "^10.5",
-    "webonyx/graphql-php": "^15.0"
-  },
-  "license": [
-    "OSL-3.0"
-  ],
-  "autoload": {
-    "files": [
-      "registration.php"
-    ],
-    "psr-4": {
-      "Yireo\\RemoveMollieEndpointsGraphQl\\": ""
+    "name": "yireo/magento2-remove-mollie-endpoints-graph-ql",
+    "version": "1.0.0",
+    "description": "Magento 2 module to remove the GraphQL endpoints that are added by the Mollie Payment extension",
+    "type": "magento2-module",
+    "require": {
+        "magento/framework": "^103.0",
+        "yireo/magento2-graph-ql-schema-manipulation": "~0.0.3"
+    },
+    "require-dev": {
+        "magento/module-graph-ql": "^100.4",
+        "phpunit/phpunit": "^10.5",
+        "webonyx/graphql-php": "^15.0",
+        "yireo/magento2-integration-test-helper": "~0.0"
+    },
+    "license": "OSL-3.0",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Yireo\\RemoveMollieEndpointsGraphQl\\": ""
+        }
     }
-  }
 }
